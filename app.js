@@ -2,6 +2,9 @@
 
 //initializing d3 object
 var svg = d3.select('svg');
+
+
+//selecting all the circle elements on HTML and providing data to them
 var circle = svg.selectAll('circle').data([50, 100, 300, 593, 1000]);
 
 
